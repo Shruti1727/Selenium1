@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.GroceryTestPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGroceryPage"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.GroceryTestPage -->
+      <class name="tests.AddtocartTest">
+        <methods>
+          <include name="testSearch" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.AddtocartTest -->
+      <class name="tests.TestScenario4">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="testGiftCards"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.TestScenario4 -->
+      <class name="tests.SellerTestPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSellerPage"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- tests.SellerTestPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
